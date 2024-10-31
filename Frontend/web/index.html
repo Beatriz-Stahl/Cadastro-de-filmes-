@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <h1>Cadastro de Categorias</h1>
+    <form id="categoriaForm" action="">
+        <input type="text" id="nome" placeholder="Nome da Categoria" required>
+        <button type="submit">Cadastrar Categoria</button>
+    </form>
+
+    <h1>Cadastro de Filmes</h1>
+    <form id="filmeForm">
+        <input type="text" id="nomeFilme" placeholder="Nome do Filme" required>
+        <textarea id="descricaoFilme" placeholder="Descrição"></textarea>
+        <input type="number" id="ano" placeholder="Ano" required>
+        <input type="text" id="diretor" placeholder="Diretor" required>
+        <select id="categoriaId"></select>
+        <button type="submit">Cadastrar Filme</button>
+    </form>
+
+
+</body>
+
+</html>

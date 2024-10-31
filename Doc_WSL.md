@@ -5,7 +5,7 @@
 2. [Baixar o pacote de atualizacao do kernel do Linux](#Baixar-o-pacote-de-atualizacao-do-kernel-do-Linux)
 3. [Instalar o Ubunto](#Instalar-o-Ubunto)
 4. [Iniciando vitualizacao](#Iniciando-vitualizacao)
-5. [Encerrando virtualizacao](#Encerrando-virtualizacao)
+7. [Encerrando virtualizacao](#Encerrando-virtualizacao)
 
 
 
@@ -72,7 +72,25 @@ use esses mesmos comandos para o script do Vscode
 
 se usar o comando: ``` code . ``` ira iniciar o vscode na virtualização 
 
-# 5 - Encerrando virtualizacao 
+# 5 - Import
+Para fazer o Import:
+```
+wsl --import (nome-nova-maquina)(caminho + qual-pasta-vai-guardar-no-disco)(caminho + nome-arquivo-exportado)
+```
+exemplo: 
+wsl --import contatica a:\wsl\contatica a:\wsl\template.tar
+
+
+# 6 - Export
+
+Para fazer o Export: 
+```
+wsl --export Ubuntu (pasta-de-destino)(nome-para-o-arquivo)
+```
+exemplo:
+wsl --export Ubuntu c:\wsl\template.tar
+
+# 7 - Encerrando virtualizacao 
 utilize o comando, para sair da virtualização:
 ```
 exit

@@ -5,20 +5,24 @@
 - Entregavel: Setup do ambiente, criação do repositório git
 
 ### 2º Sprint
-- Obejetivo: Modelagem do banco de dados e criação da API basica
-- Entregavel: Estrutura do banco, endpoints e CRUD de categorias
+- Objetivo: Desenvolvimento do fronted web
+- Entregavel: Interface web para o CRUD de filmes e categorias 
 
 ### 3º Sprint
+- Objetivo: Desenvolvimento do frontend mobile 
+- Entregavel: Interface mobile para ver a lista dos filmes cadastrados 
+
+### 4º Sprint
 - Objetivo: Desenvolvimento das funcionalidades para cadastro de filmes
 - Entregavel: CRUD de filmes e integração com categorias
 
-### 4º Sprint
-- Objetivo: Desenvolvimento do fronted web
-- Entregavel: Interface web para o CRUD de filmes e categorias
 
 ### 5º Sprint
-- Objetivo: Desenvolvimento do frontend mobile 
-- Entregavel: Interface mobile para o CRUD de filmes e categorias
+- Obejetivo: Modelagem do banco de dados e criação da API basica
+- Entregavel: Estrutura do banco, endpoints e CRUD de categorias
+
+
+
 
 # Backlog de tarefas
 ## 1. Configuração do ambiente:
